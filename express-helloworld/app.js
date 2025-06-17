@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('This is version 3 of the app.' + '\n');
 });
 
-app.get('/', function (req, res) {
+app.get('/mars', function (req, res) {
   res.send('Hello Mars\n');
 });
 
